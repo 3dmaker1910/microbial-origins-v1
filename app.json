@@ -1,13 +1,12 @@
 {
-import { registerRootComponent } from 'expo';
   "expo": {
     "name": "Micropia Origenes",
     "slug": "microbial-origins",
     "version": "1.0.0",
     "scheme": "micropia",
+    "plugins": ["expo-router"],
     "web": {
       "bundler": "metro"
-	registerRootComponent(App);
     }
   }
 }
