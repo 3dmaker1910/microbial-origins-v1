@@ -1,4 +1,5 @@
 {
+import { registerRootComponent } from 'expo';
   "expo": {
     "name": "Micropia Origenes",
     "slug": "microbial-origins",
@@ -6,6 +7,7 @@
     "scheme": "micropia",
     "web": {
       "bundler": "metro"
+	registerRootComponent(App);
     }
   }
 }
